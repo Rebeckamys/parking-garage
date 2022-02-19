@@ -1,0 +1,23 @@
+.floor-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.MuiCard-root.parking-spot {
+    padding: 5px;
+    background-color: #d4d1d1;
+    min-width: 50px;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.parking-spot.available {
+    background-color: #009E60;
+    color: white;
+}
+
+.parking-spot.explanation {
+    font-size: small;
+}

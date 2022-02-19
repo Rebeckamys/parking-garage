@@ -1,0 +1,34 @@
+.floor-overview-container {
+    margin-bottom: 10px;
+}
+
+.floor-heading {
+    height: 50px;
+    width: 50px;
+    font-size: 10px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    /* background: #7734c0; */
+    border: 2px solid #9c27b0;
+    color: #9c27b0;
+    font-weight: bold;
+    /* background: linear-gradient(90deg, rgba(247, 141, 167, 1) 7%, rgba(207, 46, 46, 1) 100%); */
+}
+
+.floor-information {
+    color: grey;
+    padding-top: 20px;
+}
+
+.floor-information.available {
+    color: #009E60;
+}
+
+@media only screen and (max-width: 600px) {
+    .floor-heading {
+        border: none;
+        height: auto;
+    }
+}
