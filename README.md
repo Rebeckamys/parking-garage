@@ -1,3 +1,3 @@
 # Getting started
-1. Run nom install
+1. Run npm install
 2. Run npm start
